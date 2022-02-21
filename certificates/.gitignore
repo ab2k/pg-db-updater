@@ -1,3 +1,4 @@
 # ignore any .key and .crt files
 *.key
 *.crt
+!.gitignore
