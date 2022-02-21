@@ -3,7 +3,7 @@ Lightweight database updater and modification tracker for PostgreSQL family data
 
 ## Overview
 * `PG DB Updater` will keep track of every database update you apply with it.
-* `PG DB Updater` uses a special service table and the sha512sum utility to calculate the checksum of each applied update file, so you are almost guaranteed to install this update only once. In this way, you no longer have to remember whether you applied this particular update to this particular database or not.
+* `PG DB Updater` uses a special service table and the `sha512sum` utility to calculate the checksum of each applied update file, so you are almost guaranteed to install this update only once. In this way, you no longer have to remember whether you applied this particular update to this particular database or not.
 * `PG DB Updater` is very easy to install and configure, it only needs a few utilities and you may already have them installed - `bash`, `sha512sum` and the `psql` utility to work with the database. To install the script, simply clone this repository, install security certificates for connecting to the database if necessary, and edit the settings file. You can also set options from the command line which will take precedence.
 * `PG DB Updater` does not require any fancy strategy for storing database update files. You can store files in one folder or organize them by specific tasks and sort them into different folders with the task name. Remember to number the update files so that there is no confusion when applying them, for example, the table is filled with values before the table itself is created.
 * While running `PG DB Updater` will inform you about every action it is taking.
