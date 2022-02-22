@@ -22,3 +22,7 @@ Lightweight database updater and modification tracker for PostgreSQL family data
 * GNU `Bash` (tested with: 4.1.2, 4.2.46, 4.4.20, 5.0.17).
 * GNU coreutils `sha512sum` (tested with: 8.4, 8.22, 8.30).
 * PostgreSQL `psql` utility (tested with: 9.6.24, 12.10, 13.4, 14.2).
+
+## License
+PG DB Updater is licensed under the GNU General Public License version 3. A copy of this license can be found [here](https://github.com/ab2k/pg-db-updater/blob/main/LICENSE).
+Copyright (C) 2022 Andrey Bolshakov
