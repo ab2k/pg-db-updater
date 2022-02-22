@@ -7,6 +7,7 @@ Lightweight database updater and modification tracker for PostgreSQL family data
 * `PG DB Updater` is very easy to install and configure, it only needs a few utilities and you may already have them installed - `bash`, `sha512sum` and `psql`. To install the script, simply clone this repository, install security certificates for connecting to the database if necessary, and edit the settings file. You can also set options from the command line which will take precedence.
 * `PG DB Updater` does not require any fancy strategy for storing database update files. You can store all files in the `sources` folder, or you can group them by specific tasks and organize them into separate subfolders in the `sources` folder. Be sure to number the update files so that there is no confusion when applying them, for example, do not try to populate a table with values before creating the table itself. Please note that the script sorts files by name, so it is recommended to specify the run number with leading zeros at the beginning of the file name.
 * While running, `PG DB Updater` will inform you of every action it takes, showing you the results of applying the database update file.
+* If an error will be found, the script will stop.
 
 ## Usage
 ```
