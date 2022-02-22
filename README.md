@@ -1,5 +1,5 @@
 # PG DB Updater
-Lightweight database updater and modification tracker for PostgreSQL family databases.
+Lightweight database updater and update modification tracker for PostgreSQL family databases.
 
 ## Overview
 * `PG DB Updater` will keep track of every database update you apply with it.
