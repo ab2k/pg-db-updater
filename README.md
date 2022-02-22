@@ -25,7 +25,11 @@ Lightweight database updater and update modification tracker for PostgreSQL fami
 * PostgreSQL `psql` utility (tested with: 9.6.24, 12.10, 13.4, 14.2).
 
 ## License
-PG DB Updater is licensed under the GNU General Public License version 3. A copy of this license can be found [here](https://github.com/ab2k/pg-db-updater/blob/main/LICENSE).
 
-## Copyright
 Copyright (C) 2022 Andrey Bolshakov
+
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or maybe any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with this program. If not, [here it is](https://github.com/ab2k/pg-db-updater/blob/main/LICENSE).
