@@ -1,6 +1,8 @@
 # PG DB Updater
 Lightweight database updater and update modification tracker for PostgreSQL family databases.
 
+![Shellcheck](https://github.com/ab2k/pg-db-updater/workflows/ShellCheck/badge.svg)
+
 ## Overview
 * `PG DB Updater` will keep track of every database update you apply with it.
 * `PG DB Updater` uses a special service table and the `sha512sum` utility to calculate the checksum of each applied update file, so you are almost guaranteed to install this update only once. In this way, you no longer have to remember whether you applied this particular update to this particular database or not.
